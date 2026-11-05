@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Turbopack
+.turbo/
+
+# Environment variables
+.env*
+
+# Dependency lockfiles (we use pnpm/yarn/npm)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Middleman
+middleman/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Directory for Instrumenting with Dynamo
+pyviz/
+
+# Cloud9
+.c9/
+
+# Coverage reports
+coverage/
+
+# NYC test coverage
+.nyc_output/
+
+# Environment artifacts
+.env*.local
+
+# Vercel
+.vercel
+
+# Catch-all for OS X
+.DS_Store
+
+# npm and yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
